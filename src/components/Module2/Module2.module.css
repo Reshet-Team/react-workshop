@@ -1,0 +1,248 @@
+.exercise {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 140px;
+}
+
+.fieldLabel {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.input {
+  padding: 0.55rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #f8fafc;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.select {
+  padding: 0.55rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #f8fafc;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: #f8fafc;
+  background: #334155;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btnPrimary {
+  background: #6366f1;
+}
+
+.btnDanger {
+  background: #dc2626;
+}
+
+.btnSmall {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.7rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #334155;
+}
+
+.table td {
+  padding: 0.55rem 0.75rem;
+  color: #e2e8f0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.table tr:hover td {
+  background: #1e293b;
+}
+
+.stats {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.stat {
+  font-size: 0.7rem;
+  color: #64748b;
+  background: #1e293b;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+}
+
+.emailList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.emailItem {
+  padding: 0.6rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.1s;
+}
+
+.emailItem:hover {
+  border-color: #334155;
+}
+
+.emailItemActive {
+  border-color: #6366f1;
+  background: #1e1b4b;
+}
+
+.emailSubject {
+  font-size: 0.82rem;
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.emailMeta {
+  font-size: 0.7rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+.emailPreview {
+  padding: 1rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+
+.emailPreviewTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.emailPreviewBody {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+}
+
+.badgeUnread {
+  background: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+}
+
+.badgeStarred {
+  background: rgba(234, 179, 8, 0.2);
+  color: #fde047;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}

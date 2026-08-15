@@ -1,0 +1,84 @@
+.page {
+  min-height: 100vh;
+  padding: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  color: #f8fafc;
+}
+
+.moduleTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.moduleSubtitle {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.tabNav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 0.75rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #94a3b8;
+  background: transparent;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.tab:hover {
+  color: #f8fafc;
+}
+
+.tabActive {
+  color: #f8fafc;
+  background: #6366f1;
+}
+
+.panel {
+  border-radius: 12px;
+  padding: 1.25rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  min-width: 0;
+  width: 100%;
+  max-width: 720px;
+}

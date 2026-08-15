@@ -1,0 +1,197 @@
+.exercise {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.fieldLabel {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.input {
+  padding: 0.55rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #f8fafc;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: #f8fafc;
+  background: #334155;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btnPrimary {
+  background: #6366f1;
+}
+
+.btnSuccess {
+  background: #059669;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.table th {
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #334155;
+}
+
+.table td {
+  padding: 0.35rem 0.6rem;
+  color: #cbd5e1;
+  border-bottom: 1px solid #1e293b;
+}
+
+.tableWrap {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.renderCount {
+  font-size: 0.7rem;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.colorPreview {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid #334155;
+}
+
+.collapsible {
+  border: 1px solid #334155;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collapsibleHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #1e293b;
+  cursor: pointer;
+}
+
+.collapsibleHeader:hover {
+  background: #334155;
+}
+
+.collapsibleTitle {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+.collapsibleBody {
+  padding: 1rem;
+}
+
+.chart {
+  height: 120px;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  padding: 0.75rem;
+}
+
+.chartBar {
+  flex: 1;
+  background: #6366f1;
+  border-radius: 2px 2px 0 0;
+  min-height: 4px;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+.innerInput {
+  padding: 0.4rem 0.6rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  color: #f8fafc;
+  font-size: 0.8rem;
+}
+
+.innerInput:focus {
+  outline: none;
+  border-color: #6366f1;
+}

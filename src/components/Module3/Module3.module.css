@@ -1,0 +1,213 @@
+.exercise {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 140px;
+}
+
+.fieldLabel {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.input {
+  padding: 0.55rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #f8fafc;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: #f8fafc;
+  background: #334155;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btnPrimary {
+  background: #6366f1;
+}
+
+.btnDanger {
+  background: #dc2626;
+}
+
+.btnSuccess {
+  background: #059669;
+}
+
+.output {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: #cbd5e1;
+  font-family: 'JetBrains Mono', monospace;
+  white-space: pre-wrap;
+}
+
+.stepIndicator {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.step {
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #1e293b;
+  color: #64748b;
+  border: 1px solid #334155;
+}
+
+.stepActive {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+
+.stepDone {
+  background: #059669;
+  color: #fff;
+  border-color: #059669;
+}
+
+.log {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.logItem {
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #94a3b8;
+  padding: 0.25rem 0.5rem;
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.suggestionItem {
+  padding: 0.5rem 0.75rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: #e2e8f0;
+  cursor: pointer;
+}
+
+.suggestionItem:hover {
+  border-color: #6366f1;
+}
+
+.loading {
+  font-size: 0.8rem;
+  color: #64748b;
+  padding: 0.5rem 0;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #a5b4fc;
+  margin-left: 0.5rem;
+}
+
+.resizeDisplay {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: #f8fafc;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.listenerCount {
+  font-size: 0.8rem;
+  color: #f59e0b;
+  margin-top: 0.5rem;
+}
